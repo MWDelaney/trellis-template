@@ -12,6 +12,7 @@ Automatically deploy your [Trellis](https://roots.io/trellis/)-based WordPress s
 - 🚀 **Automatic (or manual) deployment** to `staging` and `production` environments using [GitHub Actions](https://github.com/features/actions) when pull requests are merged to your `staging` and `main` branches respectively.
 - 🔄 **On-Demand one-way sync** database and assets from `production` to `staging`.
 - 🔗 **Maintains a history of [GitHub Deployments](https://docs.github.com/en/rest/reference/repos#create-a-deployment)** and provides links to the current deployments in each environment.
+- 🆕 **Automatically creates a GitHub release** with the database and uploads attached as artifacts when deploying to `production`.
 - 🔑 **Re-set deployment keys on-demand** when you need to change who has access to `staging` or `production`.
 - 📦 **WordPress plugin, core, and theme updates** managed with [Dependabot](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/about-dependabot-version-updates).
 - 📝 **Optionally generates README.md** with deployment status badges and setup instructions.

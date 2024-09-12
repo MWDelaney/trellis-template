@@ -78,7 +78,7 @@ runs:
       if: ${{ inputs.environment == 'production' }}
       id: check_db_file
       with:
-        files: "site/${{ inputs.environment }}-*.sql"
+        files: "${{ inputs.from }}-${{ steps.get_date.outputs.machine_date }}.sql"
         fail: true
 
     # Trellis puts WordPress in a subdirectory. Find and replace the home and siteurl values in the database export file with the following format:
